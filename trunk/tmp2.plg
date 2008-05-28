@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: tmp2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sunw\LOCALS~1\Temp\RSP81E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/tmp2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\MyDocument\code\VC\B_Media\VerityCode\tmp2Dlg.cpp"
+"E:\MyDocument\code\VC\B_Media\VerityCode\VerityCodeDrawer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\sunw\LOCALS~1\Temp\RSP81E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/tmp2.pdb" /debug /machine:I386 /out:"Debug/tmp2.exe" /pdbtype:sept  .\Debug\StdAfx.obj .\Debug\tmp2.obj .\Debug\tmp2Dlg.obj .\Debug\VerityCodeDrawer.obj .\Debug\tmp2.res "
+<h3>Output Window</h3>
+Compiling...
+VerityCodeDrawer.cpp
+E:\MyDocument\code\VC\B_Media\VerityCode\VerityCodeDrawer.cpp(40) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+E:\MyDocument\code\VC\B_Media\VerityCode\VerityCodeDrawer.cpp(41) : warning C4305: 'initializing' : truncation from 'const double' to 'const float'
+Generating Code...
+Compiling...
+tmp2Dlg.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/tmp2.bsc"  .\Debug\StdAfx.sbr .\Debug\tmp2.sbr .\Debug\tmp2Dlg.sbr .\Debug\VerityCodeDrawer.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+tmp2.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
